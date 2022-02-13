@@ -1,0 +1,55 @@
+HW:
+0.Write a Python code to create a 3x3 matrix using nested lists, with values given by user. Also print it in a way that it looks like a matrix.
+Next, upgrade your program for the dimension n x n where n is given by user.
+
+1.Make a Python program that uses a function to find average of 3 given numbers and print it on the screen.
+
+2.Make a Python program that uses a function that finds factorial of the number given in its argument.
+
+3.Make a Python program that uses a function to find nth term of an arithmetic progression whose first term is a & common difference is d.
+
+4.Make a Python program that uses a function to find nth term of an geometric progression whose first term is a & common ratio is r.
+
+5.Make a Python program that asks 5 numbers from user, finds their factorials using a function that takes 1 number in its argument & returns its factorial, adds all the factorials returned by function & prints the final answer on the screen.
+
+----------12-feb-2022 ---2:14 AM
+
+6.Royal Kids Bank
+
+Design a Banking App in Python that has the following functionalities:-
+User can:-
+◆OPEN ACCOUNT by username and password of his choice. On Opening account, his initial balance will be ₹ 25,000/-. Once he opens account, he can login by re-entering the same username & password.
+◆LOGIN is compulsory to perform any task such as withdrawal, deposit or balance check. If the user name or password do not match, he can not Login. Once he is logged in, he can do as many transactions as he wants. He needs to Logout after he finishes all the transactions
+◆DEPOSIT will enable user to deposit amount of money of his choice. His balance should be updated after the task completes.
+◆WITHDRAW will enable user to withdraw amount of money of his choice. The only condition is that his balance at any point can not go less than ₹10,000/-. If this can happen after his withdrawal, your program must not allow that transaction. His balance should be updated after the task completes.
+◆CHECK BALANCE will show the latest updated balance to user.
+◆LOGOUT will exit the user from the program
+You should use these functions in your program: login(), deposit(), withdraw(), checkBalance()
+
+7. Make a function that checks whether the given number is a perfect number or not. Make a Python program that uses this function to print all the perfect numbers between a given range. A perfect number is one whose all factors (excluding itself), when added up, you get the number itself. eg, factors of 6: 1, 2, 3, 6 & 1+2+3 = 6. so 6 is a perfect number.
+
+# Recursion
+8. Write a Python code to print nth term of an AP whose first term 'a' & common difference 'd' are given.
+        ------------------repeated---------------   
+        explaination:
+        first term = a = 6
+        common diff = d= 4
+        6, 10, 14, 18, 22, 26, 30, 34
+        8th term = 7th term + d
+        nth term = (n-1)th term + d
+        a = 7
+        d = 14
+        5th term = ?
+        2nd term = 1st term + d
+        1st term = a
+        ------------------repeated---------------
+9. Make a Python program that finds nth term of a Geometric Progression whose first term (a)
+and common ratio (r) are given by user. Find out more about Geometric Progression from internet.
+
+10. Make a recursive Python function that returns nth term of fibonacci sequence. Develop a Python main program around this function that asks term number from the user and prints that term of fibonacci sequence on the screen.
+Fibonacci sequence is:
+0, 1, 1, 2, 3, 5, 8, 13, 21.......
+
+11. Write a function to calculate power of a number raised to other ( a^b ) using recursion.
+
+12. Make a Python program that uses recursion to print multiplicative table of 12.
